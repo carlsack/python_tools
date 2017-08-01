@@ -1,2 +1,2 @@
-# python_repo-
-for python study
+# python_repo
+这个仓库就作为我新手python练习的小仓库用吧
