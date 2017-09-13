@@ -6,7 +6,7 @@ print("网站地址:http://www.jdlingyu.wang/\n文件会保存到D盘J_site文�
 header = {
     'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36'}
 while True:
-	url = input("页面编号:")
+	url = input("页面地址:")
 	path = "D:/J_site/"
 	html_url = requests.get(url, headers=header)
 	soup = BeautifulSoup(html_url.text, "html.parser")
